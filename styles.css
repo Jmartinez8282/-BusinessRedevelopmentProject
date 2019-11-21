@@ -36,15 +36,18 @@ body{
   
   
   #p1{
-    font-size: 35px;
+    font-size: 20px;
     color:maroon;
   }
   #p2{
-    font-size: 35px;
+    font-size: 20px;
     color:rgb(0, 128, 17);
 
   }
   #p3{
-    font-size: 35px;
+    font-size: 20px;
     color:rgb(128, 0, 0);  
+  }
+  .bgw{
+background-color: white;
   }
