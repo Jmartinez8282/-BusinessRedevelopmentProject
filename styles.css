@@ -1,0 +1,10 @@
+#navBar{
+    background-color: rgb(255, 231, 188);
+}
+.nav-link{
+    color:maroon;
+    font-size:25px
+}
+body{
+    background-color:rgb(255, 231, 188);
+}
