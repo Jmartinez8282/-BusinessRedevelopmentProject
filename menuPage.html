@@ -15,9 +15,46 @@
 </head>
 
 <body style="background-color: #FDECC0;" aria-hidden="true">
+
+    <!---------W3 Schools Modal Image Test---------->
+
+    <!-- Trigger the Modal -->
+    <img id="myImg" src="images.jpg/asadaomelette.jpg" alt="Asada Omelette" style="width:100%;max-width:300px;">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+     <div id="caption"></div>
+</div>
+
+    <!--------------------------------------------->
+
     <div id="imageOne" style="display: none">
-        <img src="images.jpg/asadaomelette.jpg" style="height: 100vh; width: 100vw;">
+        <img src="images.jpg/breakfast.jpg" style="height: 100vh; width: 100%; background-position: center;">
     </div>
+    <div id="imageTwo" style="display: none">
+            <img src="images.jpg/chile colorado.jpg" style="height: 100vh; width: 100%; background-position: center;">
+    </div>
+    <div id="imageThree" style="display: none">
+            <img src="images.jpg/steak.jpg" style="height: 100vh; width: 100%; background-position: center;">
+    </div>
+    <div id="imageFour" style="display: none">
+            <img src="images.jpg/asadaomelette.jpg" style="height: 100vh; width: 100%; background-position: center;">
+    </div>
+    <div id="imageFive" style="display: none">
+            <img src="images.jpg/steak.jpg" style="height: 100vh; width: 100%; background-position: center;">
+    </div>
+    <div id="imageSix" style="display: none">
+            <img src="images.jpg/chile colorado.jpg" style="height: 100vh; width: 100%; background-position: center;">
+    </div>
+
     <div id="removeEverything">
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FDECC0;">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -54,7 +91,7 @@
                             <div class="container">
                                     <div class="col-auto">
                                             <div class="card border border-dark rounded-0">
-                                                    <img id="imageoneClick" src="/images.jpg/breakfast.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imageoneClick" src="/images.jpg/breakfast.jpg" class="card-img-top" alt="..."></a>
                                                 <div class="card-body">
                                                     <h1>BREAKFAST</h1>
                                                     <p><div class="card-text font-weight-bold">Served with refried beans and home-fried potatoes or hashbrowns, home-made tortillas or toast</div></p>
@@ -76,7 +113,7 @@
                             <div class="container">
                                     <div class="col-auto my-3">
                                             <div class="card border border-dark rounded-0">
-                                                <img src="/images.jpg/chile colorado.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imagetwoClick" src="/images.jpg/chile colorado.jpg" class="card-img-top imagethreeClick" alt="..."></a>
                                                 <div class="card-body">
                                                     <h1>SUSY'S HOUSE SPECIALTIES</h1>
                                                     <p class="card-text">
@@ -99,7 +136,7 @@
                             <div class="container">
                                     <div class="col-auto">
                                             <div class="card border border-dark rounded-0">
-                                                <img src="/images.jpg/steak.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imagethreeClick" src="/images.jpg/steak.jpg" class="card-img-top" alt="..."></a>
                                                 <div class="card-body">
                                                     <h1>BURGERS</h1>
                                                     <p class="card-text">
@@ -120,7 +157,7 @@
                             <div class="container">
                                     <div class="col-auto">
                                             <div class="card border border-dark rounded-0">
-                                                <img src="/images.jpg/asadaomelette.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imagefourClick" src="/images.jpg/asadaomelette.jpg" class="card-img-top" alt="..."></a>
                                                 <div class="card-body">
                                                     <h1>OMELETTES</h1>
                                                     <p class="card-text">
@@ -145,7 +182,7 @@
                             <div class="container">
                                     <div class="col-auto my-3">
                                             <div class="card border border-dark rounded-0">
-                                                <img src="/images.jpg/steak.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imagefiveClick" src="/images.jpg/steak.jpg" class="card-img-top" alt="..."></a>
                                                 <div class="card-body">
                                                         <h1>BURGERS</h1>
                                                         <p class="card-text">
@@ -163,7 +200,7 @@
                             <div class="container">
                                     <div class="col-auto mb-5">
                                             <div class="card border border-dark rounded-0">
-                                                <img src="/images.jpg/chile colorado.jpg" class="card-img-top" alt="...">
+                                                    <a href="#"><img id="imagesixClick" src="/images.jpg/chile colorado.jpg" class="card-img-top imagethreeClick" alt="..."></a>
                                                 <div class="card-body">
                                                         <h1>SUSY'S HOUSE SPECIALTIES</h1>
                                                         <p class="card-text">
