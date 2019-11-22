@@ -13,7 +13,7 @@ body{
     background-color:rgb(255, 231, 188);
 }
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -55,7 +55,12 @@ color: white;
   #p5{
     position:center;
     font-size: 20px;
-    color:maroon;
+    color:rgb(0, 128, 17);
+  }
+  #p6{
+    position:center;
+    font-size: 20px;
+    color:rgb(128, 0, 0);
   }
   .bgw{
 background-color: white;
@@ -108,5 +113,6 @@ background-color: white;
       margin-top: 0px;
       margin-bottom: 0px;
     }
+    
     
   }
