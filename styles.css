@@ -8,3 +8,36 @@
 body{
     background-color:rgb(255, 231, 188);
 }
+
+.centerEZ{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+.CEZ{
+    background-color: maroon;
+    color: white;
+    font-family: cursive;
+}
+.whiteEZ{
+    background-color: white;
+}
+.textEZ{
+    font-family: cursive;
+}
+.headEZ{
+    font-size: 30px;
+}
+.regEZ{
+    font-size: 20px;
+}
+.lowerEZ{
+    margin-top: 15px;
+}
+.higherEZ{
+    margin-bottom: 15px;
+}
+.EZ{
+    color: maroon;
+}
