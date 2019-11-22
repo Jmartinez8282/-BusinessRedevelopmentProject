@@ -151,3 +151,9 @@ background-color: white;
 .EZ{
     color: maroon;
 }
+.footerEZ {
+  background-color:maroon;
+  color: white;
+  text-align:center;
+  font-size: 25px;
+}
